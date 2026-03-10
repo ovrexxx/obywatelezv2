@@ -1,3 +1,8 @@
 {
-  "cleanUrls": true
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/login", "destination": "/api/login.js" },
+    { "source": "/api/verify", "destination": "/api/verify.js" },
+    { "source": "/", "destination": "/login.html" }
+  ]
 }
